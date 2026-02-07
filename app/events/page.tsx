@@ -10,17 +10,17 @@ export default function Events() {
 					Explore our past, ongoing, and upcoming events that foster learning, networking, and innovation within the IEEE Student Branch.
 				</p>
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-					<div className="bg-white rounded-lg shadow p-6">
+					<div className="glass-card p-6">
 						<h2 className="text-xl font-bold text-blue-700 mb-2">Past Events</h2>
-						<ul className="list-disc ml-6 text-gray-700">
+						<ul className="list-disc ml-6 text-white">
 							<li>Technical Workshop: AI & Robotics</li>
 							<li>IEEE Day Celebration</li>
 							<li>Leadership Bootcamp</li>
 						</ul>
 					</div>
-					<div className="bg-white rounded-lg shadow p-6">
+					<div className="glass-card p-6">
 						<h2 className="text-xl font-bold text-blue-700 mb-2">Upcoming Events</h2>
-						<ul className="list-disc ml-6 text-gray-700">
+						<ul className="list-disc ml-6 text-white">
 							<li>Annual Symposium 2026</li>
 							<li>Hackathon: Tech for Good</li>
 							<li>Industry Networking Night</li>

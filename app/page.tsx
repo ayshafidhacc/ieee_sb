@@ -14,15 +14,15 @@ export default function Home() {
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 w-full">
 					<div className="glass-card p-6 flex flex-col items-center">
 						<h2 className="text-xl font-bold text-blue-700 mb-2">Global Network</h2>
-						<p className="text-gray-700 text-center">Connect with professionals, students, and leaders worldwide through IEEE’s vast network.</p>
+						<p className="text-center text-white">Connect with professionals, students, and leaders worldwide through IEEE’s vast network.</p>
 					</div>
 					<div className="glass-card p-6 flex flex-col items-center">
 						<h2 className="text-xl font-bold text-blue-700 mb-2">Events & Activities</h2>
-						<p className="text-gray-700 text-center">Participate in workshops, seminars, competitions, and social events that foster growth and collaboration.</p>
+						<p className="text-center text-white">Participate in workshops, seminars, competitions, and social events that foster growth and collaboration.</p>
 					</div>
 					<div className="glass-card p-6 flex flex-col items-center">
 						<h2 className="text-xl font-bold text-blue-700 mb-2">Leadership & Recognition</h2>
-						<p className="text-gray-700 text-center">Develop leadership skills and earn recognition through active involvement and achievements.</p>
+						<p className="text-center text-white">Develop leadership skills and earn recognition through active involvement and achievements.</p>
 					</div>
 				</div>
 			</div>
