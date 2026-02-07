@@ -21,7 +21,7 @@ export default function RootLayout({
               {/* <span className="font-bold text-xl tracking-wide">IEEE Student Branch</span> */}
             </div>
             <button
-              className="md:hidden flex items-center px-3 py-2 border rounded text-blue-700 border-blue-700"
+              className="lg:hidden flex items-center px-3 py-2 border rounded text-blue-700 border-blue-700"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle menu"
             >
@@ -29,7 +29,7 @@ export default function RootLayout({
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </button>
-            <ul className="hidden md:flex gap-6 font-medium">
+            <ul className="hidden lg:flex gap-6 font-medium">
               <li><Link href="/" className="hover:underline">Home</Link></li>
               <li><Link href="/about-ieee" className="hover:underline">About IEEE</Link></li>
               <li><Link href="/about-sb" className="hover:underline">About SB</Link></li>
@@ -43,7 +43,7 @@ export default function RootLayout({
           </nav>
           {/* Mobile menu */}
           {menuOpen && (
-            <div className="md:hidden bg-white border-t border-blue-100 px-6 py-4">
+            <div className="lg:hidden bg-white border-t border-blue-100 px-6 py-4">
               <ul className="flex flex-col gap-4 font-medium">
                 <li><Link href="/" className="hover:underline" onClick={() => setMenuOpen(false)}>Home</Link></li>
                 <li><Link href="/about-ieee" className="hover:underline" onClick={() => setMenuOpen(false)}>About IEEE</Link></li>
