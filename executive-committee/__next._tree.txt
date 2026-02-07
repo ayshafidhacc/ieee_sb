@@ -1,4 +1,4 @@
-:HL["/ieee_sb/_next/static/chunks/ac5e2c8f3a39f79b.css","style"]
+:HL["/ieee_sb/_next/static/chunks/f048ad99d85bcc22.css","style"]
 :HL["/ieee_sb/Copy of naveehh - Navaneeth Narayanan.jpg","image"]
 :HL["/ieee_sb/Copy of 16c52853-890e-4330-a1b6-a6d9bca9d62c - ꜱᴏᴜʀᴀᴠ_ꜱ_ ɴᴀᴍʙɪᴀʀ.jpeg","image"]
 :HL["/ieee_sb/Copy of IMG-20241225-WA0041 - Sadarsh SanthoshBabu.jpg","image"]
@@ -9,4 +9,4 @@
 :HL["/ieee_sb/Copy of IMG_20241103_230543 - Adi thyan.jpg","image"]
 :HL["/ieee_sb/Copy of AMANBHARATH - Aman Bharath.jpg","image"]
 :HL["/ieee_sb/Copy of IMG_20231101_151243 - AMITHA I C.jpg","image"]
-0:{"buildId":"MHHb0MaHlQWOAAgRYCDvN","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"executive-committee","paramType":null,"paramKey":"executive-committee","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"L8hBOWrR0sDR9Nv_bRnHp","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"executive-committee","paramType":null,"paramKey":"executive-committee","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
