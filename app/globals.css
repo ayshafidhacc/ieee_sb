@@ -1,26 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #232a36;
+  --ieee-blue: #00629b;
+  --ieee-gold: #ffb81c;
+  --glass-bg: rgba(255, 255, 255, 0.25);
+  --glass-border: rgba(0, 98, 155, 0.3);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: 'Noto Sans', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #232a36;
+    --foreground: #f5f7fa;
+    --ieee-blue: #0094d4;
+    --ieee-gold: #ffd700;
+    --glass-bg: rgba(35, 42, 54, 0.25);
+    --glass-border: rgba(0, 148, 212, 0.3);
   }
 }
 
 body {
-  background: var(--background);
+  font-family: 'Noto Sans', sans-serif;
+  min-height: 100vh;
+  background: radial-gradient(circle at 20% 30%, #c2e9fb 0%, #f9d1b7 40%, #a1c4fd 70%, #c2e9fb 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 98, 155, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-border);
+  padding: 1.5rem;
 }
