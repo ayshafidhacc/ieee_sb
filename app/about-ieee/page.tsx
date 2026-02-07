@@ -11,10 +11,12 @@ export default function AboutIEEE() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div className="glass-card p-8 flex flex-col items-center">
+            <svg className="w-12 h-12 text-blue-700 mb-3" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 6v6l4 2" /><circle cx="12" cy="12" r="10" /></svg>
             <h2 className="text-2xl font-semibold text-blue-700 mb-2">Mission</h2>
             <p className="text-center text-white">IEEE’s core purpose is to foster technological innovation and excellence for the benefit of humanity.</p>
           </div>
           <div className="glass-card p-8 flex flex-col items-center">
+            <svg className="w-12 h-12 text-green-600 mb-3" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" /><path d="M16 2v4M8 2v4M3 10h18" /></svg>
             <h2 className="text-2xl font-semibold text-blue-700 mb-2">Vision</h2>
             <p className="text-center text-white">IEEE will be essential to the global technical community and to technical professionals everywhere, and be universally recognized for the contributions of technology and of technical professionals in improving global conditions.</p>
           </div>
