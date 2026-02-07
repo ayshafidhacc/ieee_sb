@@ -57,7 +57,7 @@ export default function RootLayout({
             </div>
           )}
         </header>
-        <main className="min-h-screen bg-background text-foreground">
+        <main className="min-h-screen bg-background text-foreground to-blue-100">
           {children}
         </main>
         <footer className="w-full bg-white text-blue-700 py-4 mt-8 text-center border-t border-blue-100">

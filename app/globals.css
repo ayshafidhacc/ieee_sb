@@ -43,3 +43,15 @@ body {
   border: 1px solid var(--glass-border);
   padding: 1.5rem;
 }
+.to-blue-100 {
+  background: radial-gradient(circle at 20% 30%, #c2e9fb 0%, #f9d1b7 40%, #a1c4fd 70%, #c2e9fb 100%);
+}
+.text-blue-700 {
+    color: lab(54 15.39 -62.43);
+}
+.text-blue-800 {
+    color: lab(54 15.39 -62.43);
+}
+.bg-blue-700 {
+    background-color: lab(54 15.39 -62.43);
+}

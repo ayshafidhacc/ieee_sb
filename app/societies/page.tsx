@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Societies() {
   return (
-    <section className="container mx-auto py-16 px-6">
+    <section className="container mx-auto py-16 px-6 ">
       <h1 className="text-4xl font-bold text-blue-700 mb-8">Societies & Affinity Groups</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="glass-card">

@@ -11,15 +11,19 @@ export default function Header() {
           <span className="font-bold text-xl tracking-wide">IEEE Student Branch</span>
         </div>
         <button
-          className="md:hidden flex items-center px-3 py-2 border rounded text-blue-700 border-blue-700"
+          className="block custom-menu:flex items-center px-3 py-2 border rounded text-blue-700 border-blue-700"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
+          style={{ display: window.innerWidth < 1000 ? 'flex' : 'none' }}
         >
           <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-        <ul className="hidden md:flex gap-6 font-medium">
+        <ul
+          className="gap-6 font-medium"
+          style={{ display: window.innerWidth < 1000 ? 'none' : 'flex' }}
+        >
           <li><a href="/" className="hover:underline">Home</a></li>
           <li><a href="/about-ieee" className="hover:underline">About IEEE</a></li>
           <li><a href="/about-sb" className="hover:underline">About SB</a></li>
