@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import Link from 'next/link';
+
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = React.useState(false);
@@ -24,8 +26,10 @@ export default function Header() {
           className="gap-6 font-medium"
           style={{ display: window.innerWidth < 1000 ? 'none' : 'flex' }}
         >
-          <li><a href="/" className="hover:underline">Home</a></li>
-          <li><a href="/about-ieee" className="hover:underline">About IEEE</a></li>
+          <li><a href="/" className="hover:underline">Home1</a></li>
+          <li><Link href="/" className="hover:underline">About IEEE</Link></li>
+
+          <li><Link href="/about-ieee" className="hover:underline">About IEEE</Link></li>
           <li><a href="/about-sb" className="hover:underline">About SB</a></li>
           <li><a href="/societies" className="hover:underline">Societies</a></li>
           <li><a href="/executive-committee" className="hover:underline">Executive Committee</a></li>

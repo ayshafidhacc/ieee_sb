@@ -2,6 +2,7 @@
 "use client";
 import React from "react";
 import "./globals.css";
+import Link from "next/link";
 
 
 export default function RootLayout({
@@ -16,8 +17,8 @@ export default function RootLayout({
         <header className="w-full bg-white text-blue-700 shadow-md border-b border-blue-100">
           <nav className="container mx-auto flex items-center justify-between py-4 px-6">
             <div className="flex items-center gap-2">
-              <img src="/ieee_student_branch_logo.svg" alt="IEEE Logo" className="h-8 w-auto mr-2" />
-              <span className="font-bold text-xl tracking-wide">IEEE Student Branch</span>
+              <img src="/ieee_sb/SB Logo.png" alt="IEEE Logo" className="h-8 w-auto mr-2" />
+              {/* <span className="font-bold text-xl tracking-wide">IEEE Student Branch</span> */}
             </div>
             <button
               className="md:hidden flex items-center px-3 py-2 border rounded text-blue-700 border-blue-700"
@@ -29,30 +30,30 @@ export default function RootLayout({
               </svg>
             </button>
             <ul className="hidden md:flex gap-6 font-medium">
-              <li><a href="/" className="hover:underline">Home</a></li>
-              <li><a href="/about-ieee" className="hover:underline">About IEEE</a></li>
-              <li><a href="/about-sb" className="hover:underline">About SB</a></li>
-              <li><a href="/societies" className="hover:underline">Societies</a></li>
-              <li><a href="/executive-committee" className="hover:underline">Executive Committee</a></li>
-              <li><a href="/events" className="hover:underline">Events</a></li>
-              <li><a href="/achievements" className="hover:underline">Achievements</a></li>
-              <li><a href="/membership" className="hover:underline">Membership</a></li>
-              <li><a href="/contact" className="hover:underline">Contact</a></li>
+              <li><Link href="/" className="hover:underline">Home</Link></li>
+              <li><Link href="/about-ieee" className="hover:underline">About IEEE</Link></li>
+              <li><Link href="/about-sb" className="hover:underline">About SB</Link></li>
+              <li><Link href="/societies" className="hover:underline">Societies</Link></li>
+              <li><Link href="/executive-committee" className="hover:underline">Executive Committee</Link></li>
+              <li><Link href="/events" className="hover:underline">Events</Link></li>
+              <li><Link href="/achievements" className="hover:underline">Achievements</Link></li>
+              <li><Link href="/membership" className="hover:underline">Membership</Link></li>
+              <li><Link href="/contact" className="hover:underline">Contact</Link></li>
             </ul>
           </nav>
           {/* Mobile menu */}
           {menuOpen && (
             <div className="md:hidden bg-white border-t border-blue-100 px-6 py-4">
               <ul className="flex flex-col gap-4 font-medium">
-                <li><a href="/" className="hover:underline" onClick={() => setMenuOpen(false)}>Home</a></li>
-                <li><a href="/about-ieee" className="hover:underline" onClick={() => setMenuOpen(false)}>About IEEE</a></li>
-                <li><a href="/about-sb" className="hover:underline" onClick={() => setMenuOpen(false)}>About SB</a></li>
-                <li><a href="/societies" className="hover:underline" onClick={() => setMenuOpen(false)}>Societies</a></li>
-                <li><a href="/executive-committee" className="hover:underline" onClick={() => setMenuOpen(false)}>Executive Committee</a></li>
-                <li><a href="/events" className="hover:underline" onClick={() => setMenuOpen(false)}>Events</a></li>
-                <li><a href="/achievements" className="hover:underline" onClick={() => setMenuOpen(false)}>Achievements</a></li>
-                <li><a href="/membership" className="hover:underline" onClick={() => setMenuOpen(false)}>Membership</a></li>
-                <li><a href="/contact" className="hover:underline" onClick={() => setMenuOpen(false)}>Contact</a></li>
+                <li><Link href="/" className="hover:underline" onClick={() => setMenuOpen(false)}>Home</Link></li>
+                <li><Link href="/about-ieee" className="hover:underline" onClick={() => setMenuOpen(false)}>About IEEE</Link></li>
+                <li><Link href="/about-sb" className="hover:underline" onClick={() => setMenuOpen(false)}>About SB</Link></li>
+                <li><Link href="/societies" className="hover:underline" onClick={() => setMenuOpen(false)}>Societies</Link></li>
+                <li><Link href="/executive-committee" className="hover:underline" onClick={() => setMenuOpen(false)}>Executive Committee</Link></li>
+                <li><Link href="/events" className="hover:underline" onClick={() => setMenuOpen(false)}>Events</Link></li>
+                <li><Link href="/achievements" className="hover:underline" onClick={() => setMenuOpen(false)}>Achievements</Link></li>
+                <li><Link href="/membership" className="hover:underline" onClick={() => setMenuOpen(false)}>Membership</Link></li>
+                <li><Link href="/contact" className="hover:underline" onClick={() => setMenuOpen(false)}>Contact</Link></li>
               </ul>
             </div>
           )}
