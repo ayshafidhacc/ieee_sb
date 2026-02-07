@@ -7,9 +7,13 @@ export default function Contact() {
       <div className="glass-card p-8 flex flex-col md:flex-row gap-8">
         <div className="flex-1">
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">Reach Out</h2>
-          <p className="mb-2">Email: <a href="mailto:ieee.sb@email.com" className="text-blue-700 underline">ieee.sb@email.com</a></p>
-          <p className="mb-2">Address: [Your Institution Address]</p>
-          <p className="mb-2">Social Links: [Facebook, Twitter, LinkedIn]</p>
+          <p className="mb-2">Email: <a href="mailto:ieeesb@stthomaskannur.ac.in" className="text-blue-700 underline">ieeesb@stthomaskannur.ac.in</a></p>
+          <p className="mb-2">
+            <span className="font-semibold text-blue-700">Address:</span><br />
+            IEEE SB STM<br />
+            St. Thomas College of Engineering and Technology<br />
+            Sivapuram P.O, Mattannur (via), Kannur - 670 702
+          </p>
         </div>
         <div className="flex-1">
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">Contact Form</h2>
